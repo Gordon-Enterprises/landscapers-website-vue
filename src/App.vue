@@ -43,30 +43,5 @@ $linkActiveColor: $accentColor;
     color: #2c3e50;
     margin-top: 60px;
 }
-nav {
-    background-color: $primaryColor;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    //  border-top: 40px solid $secondaryColor;
-    //  border-bottom: 40px solid $primaryColor;
-    .navToggle {
-        color: white;
-    }
 
-    a {
-        color: $highlightColor;
-    }
-    a:hover {
-        color: $linkHoverColor;
-    }
-    a:active {
-        color: $linkActiveColor;
-    }
-    a:focus {
-        color: $linkActiveColor;
-    }
-}
-.router-link-active {
-    color: white;
-}
 </style>

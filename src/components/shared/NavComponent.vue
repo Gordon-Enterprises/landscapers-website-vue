@@ -46,4 +46,38 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$primaryColor: #01792a;
+$secondaryColor: #39da73;
+$accentColor: #3e824f;
+$highlightColor: rgb(237, 236, 245);
+$linkColor: rgb(37, 150, 153);
+$linkHoverColor: $secondaryColor;
+$linkActiveColor: $accentColor;
+nav {
+    background-color: $primaryColor;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    //  border-top: 40px solid $secondaryColor;
+    //  border-bottom: 40px solid $primaryColor;
+    .navToggle {
+        color: white;
+    }
+
+    a {
+        color: $highlightColor;
+    }
+    a:hover {
+        color: $linkHoverColor;
+    }
+    a:active {
+        color: $linkActiveColor;
+    }
+    a:focus {
+        color: $linkActiveColor;
+        background-color: white;
+    }
+}
+.router-link-active {
+    color: white;
+}
 </style>
