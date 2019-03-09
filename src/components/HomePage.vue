@@ -225,7 +225,7 @@
 
   </main>
   <!--close container -->
-
+<ContactForm />
 </body>
 
 </html>

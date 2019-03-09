@@ -105,6 +105,7 @@
 
   </main>
   <!--close container -->
+  <ContactForm />
 
 </body>
 

@@ -41,6 +41,7 @@
   </header>
   <main>
     <router-view />
+    <FooterSection />
   </main>
 
 </div>
@@ -48,7 +49,6 @@
 
 
 <script>
-
 export default {
   name: 'app',
 
@@ -81,19 +81,18 @@ nav {
         color: white;
     }
 
-
-a {
-    color: $highlightColor;
-}
-a:hover {
-    color: $linkHoverColor;
-}
-a:active {
-    color: $linkActiveColor;
-}
-a:focus {
-    color: $linkActiveColor;
- }
+    a {
+        color: $highlightColor;
+    }
+    a:hover {
+        color: $linkHoverColor;
+    }
+    a:active {
+        color: $linkActiveColor;
+    }
+    a:focus {
+        color: $linkActiveColor;
+    }
 }
 .router-link-active {
     color: white;
