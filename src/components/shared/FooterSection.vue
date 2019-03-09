@@ -51,15 +51,35 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
+$primaryColor: #01792a;
+$secondaryColor: #39da73;
+$accentColor: #3e824f;
+$highlightColor: rgb(237, 236, 245);
+$linkColor: rgb(37, 150, 153);
+$linkHoverColor: $secondaryColor;
+$linkActiveColor: $accentColor;
+
 footer {
-  background-image: url('../assets/img/asymmetry-botanical-bright-1029592.jpg');
+  background-image: url('../../assets/img/asymmetry-botanical-bright-1029592.jpg');
   border-top: 2px solid $secondaryColor;
   background-color: $primaryColor;
   padding-top: 20px;
   color: $highlightColor;
   span {
   }
+  a {
+  color: $highlightColor;
+}
+a:hover {
+  color: $linkHoverColor;
+}
+a:active {
+  color: $linkActiveColor;
+}
+a:focus {
+  color: $linkActiveColor;
+}
 
   .tag {
     margin-bottom: 25px;

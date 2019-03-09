@@ -1,37 +1,12 @@
 <template>
 <html lang='en'>
-
-<head>
-  <!-- Required meta tags always come first -->
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-  <meta http-equiv='x-ua-compatible' content='ie=edge'>
-
-  <meta name="description" content="Ellerup Landscaping specializes in tree removal, lawn care, as well as taking care of general landscaping needs.">
-  <meta name="keywords" content="landscaping, landscapers, tree removal, gardening, home, improvement, tree, removal, lawn, lawn care, landscape, albany, new york, saratoga, schenectady, lawnmowing, mowing, repair, recycling, entrepreneurialism, entrepreneur, business, consulting,">
-  <meta name="robots" content="index">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Serif+KR|Slabo+27px" rel="stylesheet">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <title> Ellerup Landscaping LLC | Best Landscaping in Capital Region | Tree Removal Experts</title>
-</head>
-
 <body>
   <!-- Begin Body-->
 
 
   <header class='jumbotron'>
     <h1 class='col-12' id='logo'>Ellerup Landscaping</h1>
-    <h3 class='col-12' id='motto'>Serving New York's Capital Region</h3>
+    <h2 class='col-12' id='motto'>Serving New York's Capital Region</h2>
     <a href='./contact' title='Contact Us' class='btn btn-success actionBtn btn-lg'>Get Started Now</a>
   </header>
 
@@ -40,7 +15,7 @@
     <!-- Container 2 -->
 
     <content class='row about'>
-      <h3 class='col col-12'>Beautiful Landscape Design & Maintenance</h3>
+      <h2 class='col col-12'>Beautiful Landscape Design & Maintenance</h2>
       <p class='col col-12'>
         Our teams priority is empowering you to transform or maintain your lawn with
         your vision in mind. Our mission is to bring a smile to your face whenever you arrive home
@@ -50,7 +25,7 @@
     </content>
 
     <content class='row row-12 services'>
-      <h3 class='col col-12'>Our Services</h3>
+      <h2 class='col col-12'>Our Services</h2>
       <div class="card col col-12 col-lg-3">
         <div class="card-body">
           <span class='fas fa-drafting-compass fa-lg icon'></span>
@@ -82,7 +57,7 @@
         <img src="../assets/img/architecture-clouds-daylight-259588.jpg" alt="house with manicured lawn" class='bigImg'>
       </div>
       <div class="col col-12 col-lg-6">
-        <h3 class='col col-12'>Landscape Architecture</h3>
+        <h2 class='col col-12'>Landscape Architecture</h2>
         <p>Accepting jobs of all sizes, we enjoy working side by side with you to create your own unique landscape or personal
           sanctuary on your property. We'll bring the equipment and know-how, and together we will bring your vision to life.</p>
         <div class='row list-titles offset-2 d-none d-lg-flex'>
@@ -109,7 +84,7 @@
 
     <content class='row row-12 service2'>
       <div class="col col-12 col-lg-6">
-        <h3 class='col col-12'>Tree Removal</h3>
+        <h2 class='col col-12'>Tree Removal</h2>
         <p>Our experience with trees large and small allows us to carefully remove your tree with minimal impact on your property.
           Our team of experts will come for a free consulation and provide a quote for each tree you would like removed. Contact
           us for more information today.
@@ -150,7 +125,7 @@
         <img src="../assets/img/blade-blur-dew-212324.jpg" alt="blades of grass" class='bigImg'>
       </div>
       <div class="col col-12 col-lg-6">
-        <h3 class='col col-12'>Lawn Maintenance</h3>
+        <h2 class='col col-12'>Lawn Maintenance</h2>
         <p>Using the latest lawn care equipment, we provide routine mowing, weedwhacking, raking, hedge trimming and other lawn maintanance operations in Schenectady, Albany, Rennsselaer and Saratoga counties.
           Get in touch with us today to see if we are currently accepting new clients.
         </p>
@@ -185,7 +160,7 @@
     </content>
 
     <content class='row process'>
-      <h3 class='col col-12'>Our Process</h3>
+      <h2 class='col col-12'>Our Process</h2>
       <p class='col col-12'>
         At ______Ellerup Landscaping____________, we strive to bring you elegant, affordable solutions without compromise.
 
@@ -214,7 +189,7 @@
     </content>
 
     <content class='row why'>
-      <h3 class='col col-12'>Why Choose Us?</h3>
+      <h2 class='col col-12'>Why Choose Us?</h2>
       <h4 class='col col-12'>
         Our team is a group of highly specialized individuals focusing on doing one aspect of landscaping to absolute perfection.
         Our tree removal experts, landscape architechts, lawn maintanance specialists and consulatants all strive to achieve exellency without compromise.

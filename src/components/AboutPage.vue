@@ -1,36 +1,10 @@
 <template>
 <html lang='en'>
-
-<head>
-  <!-- Required meta tags always come first -->
-  <meta charset='utf-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-  <meta http-equiv='x-ua-compatible' content='ie=edge'>
-
-  <meta name="description" content="Ellerup Landscaping specializes in tree removal, lawn care, as well as taking care of general landscaping needs.">
-  <meta name="keywords" content="landscaping, landscapers, tree removal, gardening, home, improvement, tree, removal, lawn, lawn care, landscape, albany, new york, saratoga, schenectady, lawnmowing, mowing, repair, recycling, entrepreneurialism, entrepreneur, business, consulting,">
-  <meta name="robots" content="index">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Serif+KR|Slabo+27px" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <link rel='stylesheet' href='assets/css/styles.css'>
-
-  <title> Heath Landscaping Services LLC | Best Landscaping in Capital Region | Tree Removal Experts | Albany Schenectady Guilderland Saratoga Troy</title>
-</head>
-
 <body>
   <!-- Begin Body & Navbar -->
   <header class='jumbotron'>
     <h1 class='col-12' id='logo'>Ellerup Landscaping</h1>
-    <h3 class='col-12' id='motto'>Serving New York's Capital Region</h3>
+    <h2 class='col-12' id='motto'>Serving New York's Capital Region</h2>
     <a href='./contact' title='Contact Us' class='btn btn-success actionBtn btn-lg'>Get Started Now</a>
   </header>
 
@@ -39,7 +13,7 @@
     <!-- Container 2 -->
 
     <content class='row process'>
-      <h3 class='col col-12'>Our Process</h3>
+      <h2 class='col col-12'>Our Process</h2>
       <p class='col col-12'>
         At ______Ellerup Landscaping____________, we strive to bring you elegant, affordable solutions without compromise.
       </p>
@@ -67,7 +41,7 @@
     </content>
 
     <content class='row why'>
-      <h3 class='col col-12'>Why Choose Us?</h3>
+      <h2 class='col col-12'>Why Choose Us?</h2>
       <h4 class='col col-12'>
         Our team is a group of highly specialized individuals focusing on doing one aspect of landscaping to absolute perfection.
         Our tree removal experts, landscape architechts, lawn maintanance specialists and consulatants all strive to achieve exellency without compromise.
@@ -77,7 +51,7 @@
 
 
     <content class='row row-12 services'>
-      <h3 class='col col-12'>Our Services</h3>
+      <h2 class='col col-12'>Our Services</h2>
       <div class="card col col-12 col-lg-3">
         <div class="card-body">
           <span class='fas fa-drafting-compass fa-lg icon'></span>
