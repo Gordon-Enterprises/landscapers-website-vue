@@ -41,18 +41,13 @@
   </header>
   <main>
     <router-view />
-    <ContactForm />
-    <FooterSection />
   </main>
 
 </div>
 </template>
 
+
 <script>
-
-import ContactForm from './components/ContactForm.vue'
-import FooterSection from './components/FooterSection.vue'
-
 
 export default {
   name: 'app',
@@ -85,7 +80,7 @@ nav {
     .navToggle {
         color: white;
     }
-}
+
 
 a {
     color: $highlightColor;
@@ -98,8 +93,8 @@ a:active {
 }
 a:focus {
     color: $linkActiveColor;
+ }
 }
-
 .router-link-active {
     color: white;
 }
