@@ -8,15 +8,15 @@
       <div class='col-5 col-sm-2 offset-1'>
         <h5 class='mb-3'>Links</h5>
         <ul class='list-unstyled'>
-          <li><a href='./index.html'
+          <li><a href='/'
             title='Return Home'
             class='active'>Home
           </a></li>
-          <li><a href='./about.html'
+          <li><a href='./about'
             title='Refresh Page'
             class=''>About
           </a></li>
-          <li><a href='./contact.html'
+          <li><a href='./contact'
              title='Visit our Contact Page'
              class=''>Contact
           </a></li>
