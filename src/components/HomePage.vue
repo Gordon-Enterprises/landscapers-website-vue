@@ -26,33 +26,13 @@
   </head>
 
   <body>
-  	<!-- Begin Body & Navbar -->
+  	<!-- Begin Body-->
 
-  	<nav class='navbar fixed-top navbar-expand-lg'>
-  		<!-- Container 1 -->
-  		<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbar' aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-  			<span class='fas fa-bars fa-lg navToggle'></span>
-  			 </button>
-  		<div class='container-fluid row row-12'>
-
-  			<div class='collapse navbar-collapse' id='navbar'>
-  				<span id=''>Ellerup Landscaping Logo</span>
-  				<ul class='navbar-nav ml-auto'>
-  					<li class='nav-item active'><a class='nav-link' href='./index.html' title='Refresh Page'> Home</a></li>
-  					<li class='nav-item'><a class='nav-link' href='./about.html' title='Learn More About Our Company'>About</a></li>
-  					<li class='nav-item'><a class='nav-link' href='./contact.html' title='Visit Our Contact Page'> Contact</a></li>
-  				</ul>
-  </div>
-  			<!-- Close navbar collapse div-->
-  		</div>
-  		<!--Close container 1 -->
-  	</nav>
-  	<!-- End Nav -->
 
   		<header class='jumbotron'>
   			<h1 class='col-12' id='logo'>Ellerup Landscaping</h1>
   			<h3 class='col-12' id='motto'>Serving New York's Capital Region</h3>
-  			<a href='./contact.html' title='Contact Us' class='btn btn-success actionBtn btn-lg'>Get Started Now</a>
+  			<a href='./contact' title='Contact Us' class='btn btn-success actionBtn btn-lg'>Get Started Now</a>
   		</header>
 
 
@@ -241,7 +221,8 @@
   		Give us a call today and find out why experts and homeowners alike recommend us time and time again.
   	</h4>
   </content>
-
+  <ContactForm />
+  <FooterSection />
 
   </main>
   	<!--close container -->
@@ -252,6 +233,9 @@
 </template>
 
 <script>
+import ContactForm from './ContactForm.vue'
+import FooterSection from './FooterSection.vue'
+
 export default {
   name: 'HomePage',
   props: {
@@ -290,19 +274,6 @@ a:focus {
 }
 //end sitewide body stylesheet
 
-//nav stylesheet
-  nav {
-    background-color: $primaryColor;
-    color: white;
-    font-family: 'Lato', sans-serif;
-  //  border-top: 40px solid $secondaryColor;
-  //  border-bottom: 40px solid $primaryColor;
-  .navToggle {
-    color: white;
-  }
-  }
-
-//end nav stylesheet
 
 //end site wide stylesheet
 

@@ -1,39 +1,54 @@
 <template>
-  <div id="app">
-    <header>
+<div id="app">
+  <header>
+    <nav class='navbar fixed-top navbar-expand-lg'>
+      <!-- Container 1 -->
+      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbar' aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class='fas fa-bars fa-lg navToggle'></span>
+      </button>
+      <div class='container-fluid row row-12'>
+
+        <div class='collapse navbar-collapse' id='navbar'>
+          <span id=''>Ellerup Landscaping Logo</span>
+          <ul class='navbar-nav ml-auto'>
+            <li class='nav-item nav-link'>
+              <router-link :to="{ name: 'Home', params: {} }" class='nav-link' exact>
+                Home
+              </router-link>
+            </li>
+            <li class='nav-item nav-link'>
+              <router-link :to="{ name: 'About', params: {} }" class='nav-link' exact>
+                About
+              </router-link>
+            </li>
+            <li class='nav-item nav-link'>
+              <router-link to="/contact" class='nav-link' exact>
+                Contact
+              </router-link>
+            </li>
+          </ul>
+        </div>
+        <!-- Close navbar collapse div-->
+      </div>
+      <!--Close container 1 -->
+    </nav>
+    <!-- End Nav -->
     <nav>
       <ul>
-        <li class='nav-item'>
-          <router-link :to="{ name: 'Home', params: {} }" class='nav-link' exact>
-            Home
-          </router-link>
-        </li>
-        <li class='nav-item'>
-          <router-link :to="{ name: 'About', params: {} }" class='nav-link' exact>
-            About
-          </router-link>
-        </li>
-        <li class='nav-item'>
-          <router-link to="/contact" class='nav-link' exact>
-            Contact
-          </router-link>
-        </li>
+
       </ul>
     </nav>
   </header>
   <main>
     <router-view />
-    <ContactForm/>
-    <FooterSection/>
+    <ContactForm />
+    <FooterSection />
   </main>
 
-  </div>
+</div>
 </template>
 
 <script>
-//import HomePage from './components/HomePage.vue'
-//import AboutPage from './components/AboutPage.vue'
-//import ContactPage from './components/ContactPage.vue'
 
 import ContactForm from './components/ContactForm.vue'
 import FooterSection from './components/FooterSection.vue'
@@ -54,54 +69,38 @@ $linkColor: rgb(37, 150, 153);
 $linkHoverColor: $secondaryColor;
 $linkActiveColor: $accentColor;
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
 }
+nav {
+    background-color: $primaryColor;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    //  border-top: 40px solid $secondaryColor;
+    //  border-bottom: 40px solid $primaryColor;
+    .navToggle {
+        color: white;
+    }
+}
+
 a {
-  color: $highlightColor;
+    color: $highlightColor;
 }
 a:hover {
-  color: $linkHoverColor;
+    color: $linkHoverColor;
 }
 a:active {
-  color: $linkActiveColor;
+    color: $linkActiveColor;
 }
 a:focus {
-  color: $linkActiveColor;
-}
-.nav-item {
-  display: inline-block;
-  padding: 5px 10px;
-  font-size: 22px;
-  border-right: 1px solid #bbb;
-
-}
-header {
-  background-color: #999;
-  width: 1184px;
-  margin: 0 auto;
-}
-
-ul {
-  padding: 3px;
-  display: flex;
-}
-.nav-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.logo {
-  vertical-align: middle;
-  height: 30px;
+    color: $linkActiveColor;
 }
 
 .router-link-active {
-  color: white;
+    color: white;
 }
-
 </style>
